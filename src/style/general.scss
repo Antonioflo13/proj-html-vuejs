@@ -1,0 +1,16 @@
+// generals
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@import "~@fontsource/catamaran/400.css";
+@import "~@fontsource/vidaloka/400.css";
+@import "../style/variables.scss";
+
+// body
+body {
+    font-family:"Catamaran", sans-serif;
+    font-size: 14px;
+    background-color: $backgroundColor;
+}

@@ -1,0 +1,10 @@
+@mixin wrapper {
+    width: 83%;
+    padding: 20px 0;
+    margin: auto;
+}
+
+@mixin list-inline {
+    display: inline-block;
+    list-style: none;
+}
