@@ -80,6 +80,7 @@ export default {
 
     // header
     header {
+        position: relative;
         section {
             padding: 10px 0 0 0;
             article {
