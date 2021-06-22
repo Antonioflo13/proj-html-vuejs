@@ -115,7 +115,7 @@
             <div class="container">
                 <div class="row justify-content-between">
                     <div class="d-flex  justify-content-between">
-                        <div class="col-6">
+                        <div class="col-6 mb-5">
                             <h3>farm to table</h3>
                             <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora blanditiis suscipit iure reiciendis corporis illum quibusdam fuga perferendis error officiis!</h4>
                         </div>
@@ -124,11 +124,11 @@
                         </div>
                     </div>
                     <div class="col-lg-7 farm-item">
-                        <div>
-                        <img src="../assets/images/single-post-img3-800x527.jpg" alt="">
-                        <h2>Food Corner: Top Japanese Restaurants for Sushi</h2>
-                        <h5>By admin I March 25th, 2019</h5>
-                        <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima quisquam perspiciatis, rem eum quos, quo expedita aperiam temporibus dolore ipsum at error, ex dolorum itaque. Cumque voluptatem consequatur sapiente impedit ad in distinctio sequi id corporis, amet dolore sunt quos ex excepturi facere adipisci labore veritatis. Debitis suscipit culpa reprehenderit?</h4>
+                        <div class="large">
+                            <img src="../assets/images/single-post-img3-800x527.jpg" alt="">
+                            <h2>Food Corner: Top Japanese Restaurants for Sushi</h2>
+                            <h5>By admin I March 25th, 2019</h5>
+                            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima quisquam perspiciatis, rem eum quos, quo expedita aperiam temporibus dolore ipsum at error, ex dolorum itaque. Cumque voluptatem consequatur sapiente impedit ad in distinctio sequi id corporis, amet dolore sunt quos ex excepturi facere adipisci labore veritatis. Debitis suscipit culpa reprehenderit?</h4>
                         </div>
                         <div class="row">
                             <div  class="col-lg-5 farm-item small">
@@ -163,36 +163,106 @@
                                 </div>
                             </div>
                             <div  class="col-lg-5 farm-item small">
+                                <div class="">
                                 <img src="../assets/images/fi-water-side-rest-400x263.jpg" alt="">
                                 <h2>5 Waterside Restaurants in Instanbul for Special Events</h2>
                                 <h5>By admin I March 25th, 2019</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div id="more-post" class="col-12">
+                                <button>load more posts</button>
                             </div>
                         </div>
                     </div>
+
+                    <!-- aside -->
                     <div class="col-lg-4">
                         <!-- view our last recipes -->
                         <div id="last-recipes" class="mb-5">
                             <img src="../assets/images/ad-bg.jpg" alt="">
                         </div>
-                        <div class="row">
-                            <div id="city-guide" class="mb-5">
-                                <div>
-                                    <img src="../assets/images/singapore-featured-image-400x263.jpg" alt="">
+                        <!-- /view our last recipes -->
+
+                        <!-- city-guide -->
+                        <div id="city-guide" class="mb-5">
+                            <img src="../assets/images/singapore-featured-image-400x263.jpg" alt="">
+                            <h3>City Guide: Singapore</h3>
+                            <h6>VIEW ALL CITY GUIDES</h6>
+                        </div>
+                        <!-- /city-guide -->
+
+                        <!-- search -->
+                        <div id="search" class="mb-5">
+                            <input type="search" placeholder="Search..">
+                        </div>
+                        <!-- /search -->
+                        
+                        <!-- social -->
+                        <div id="social" class="mb-5">
+                            <h3 class="mb-5">Follow us</h3>
+                            <ul>
+                                <li>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fab fa-youtube"></i></a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fab fa-tiktok"></i></a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fab fa-pinterest-p"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /social -->
+
+                        <!-- post -->
+                        <div id="post">
+                            <div id="title" class="mb-5">
+                                <h3>Post</h3>
+                                <span></span>
+                                <h3>Recent</h3>
+                            </div>
+                            <div id="posts">
+                                <img src="../assets/images/single-post-img3-66x66.jpg" alt="">
+                                <div class="txt-post">
+                                    <h4>Food Corner: Top Japanese Restaurants for Sushi</h4>
+                                    <h5>By admin I March 25th, 2019</h5>
                                 </div>
-                                <h3>City Guide: Singapore</h3>
-                                <div>
-                                    <h6>VIEW ALL CITY GUIDES</h6>
+                            </div>
+                            <div id="posts">
+                                <img src="../assets/images/singapore-featured-image-66x66.jpg" alt="">
+                                <div class="txt-post">
+                                    <h4>City Guide: Singapore</h4>
+                                    <h5>By admin I March 25th, 2019</h5>
+                                </div>
+                            </div>
+                            <div id="posts">
+                                <img src="../assets/images/slide1-bg-66x66.jpg" alt="">
+                                <div class="txt-post">
+                                    <h4>6 Nutritional Tips to Help Burn Body Fat</h4>
+                                    <h5>By admin I March 25th, 2019</h5>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <input type="search">
-                        </div>
+                        <!-- post -->
+
+                        <!-- twitter posts -->
                         <div>
-                            <h3>Follow us</h3>
-                            
+
                         </div>
+                        <!-- /twitter posts -->
                     </div>
+                    <!-- /aside -->
                     
                 </div>
             </div>
@@ -307,39 +377,125 @@ export default {
     #farm-table {
         @include wrapper;
         .farm-item {
-            padding: 10px;
-            margin: 1% 1% 0 0;
-            background-color: white;
             img {
                 width: 100%;
                 margin-bottom: 40px;
             }
+            .large {
+                padding: 0 10px;
+                background-color: white;
+            }
             .small {
                 width: calc(50% - 4%);
+                padding: 0 10px;
                 margin: 2%;
                 text-align: center;
+                background-color: white;
+            }
+            #more-post {
+                button {
+                    width: 100%;
+                    color: black;
+                    background-color: #EEEEEA;
+                }
             }
 
         }
 
         #last-recipes {
+            width: 100%;
             img {
                 width: 100%;
             }
         }
 
         #city-guide {
+            width: 100%;
+            position: relative;
             img {
-                position: relative;
+                width: 100%;
             }
             h3 {
-                padding: 10px 0;
+                position: absolute;
+                bottom: 100px;
+                padding: 20px 40px;
+                text-transform: none;
                 color: white;
-                background-color: rgba($color: #000000, $alpha: 0.5);
+                background-color: rgba($color: #000000, $alpha: 0.7);
             }
             h6 {
-                position: absolute;
+                text-align: center;
+                padding: 20px 0;
+                font-weight: bold;
+                color: white;
                 background-color: $third-txt-color;
+            }
+        }
+
+        #search {
+            input {
+                width: 100%;
+                padding: 10px;
+                font-family: "Catamaran", sans-serif;
+                font-size: 20px;
+            }
+        }
+
+        #social {
+            h3 {
+                font-size: 18px;
+                font-family:"vidaloka", sans-serif;
+                color: $third-txt-color;
+            }
+            ul {
+                padding: 0;
+            }
+            ul li {
+                @include list-inline;
+                margin: 1%;
+                a {
+                    padding: 10px 15px;
+                    font-size: 17px;
+                    text-decoration: none;
+                    border: 1px solid rgb(213, 213, 213);
+                    border-radius: 10px;
+                    color: #837E77;
+                    background-color: #EEEEE9;
+                    :hover {
+                        color: #837E77;
+                    }
+                }
+            }   
+        }
+
+        #post {
+            #title {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                h3 {
+                    padding: 0 70px;
+                    font-size: 18px;
+                    text-transform: none;
+                    font-family:"vidaloka", sans-serif;
+                    color: black;
+                }
+                span {
+                    height: 80px;
+                    border: 0.2px solid rgb(161, 161, 161);
+                }
+            }
+            #posts {
+                display: flex;
+                align-items: center;
+                margin-bottom: 5%;
+                img {
+                    margin-right: 2%;
+                    border-radius: 50%;
+                } 
+                h4 {
+                    color: black;
+                }
             }
         }
     }
