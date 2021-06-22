@@ -16,7 +16,7 @@
                         <a href=""><h5>Advertise with us</h5></a>
                     </li>
                 </ul>
-                <img src="../assets/images 2/avada-food-logo.png" alt="">
+                <img src="../assets/images/avada-food-logo.png" alt="">
                 <Social class="social"/>
                 <!-- /Dowmload App -->
 
@@ -47,7 +47,7 @@
                             <h6>TODAY'S PICKS</h6>
                         </div>
                         <h1>Food Corner: Top Japanese Retraurants for sushi</h1>
-                        <h5>March 25, 2019</h5>
+                        <h4>March 25, 2019</h4>
                     </article>
                 </section>
                 <!-- /food-corner -->
@@ -55,7 +55,6 @@
             </div>
             <!-- /jumbotron -->
             
-
         </section>
     </header>
     <!-- /header -->
@@ -142,18 +141,18 @@ export default {
             }
             // jumbotron
             .jumbotron {
-                font-family:"vidaloka", sans-serif;
                 display: flex;
                 justify-content: center;
                 align-content: center;
-                height: 500px;
                 background-image: url(../assets/images/single-post-img3-1200x790.jpg);
                 background-position: center;
                 background-size: cover;
+                font-family:"vidaloka", sans-serif;
                 section {
                     display: flex;
                     justify-content: center;
                     align-content: center;
+                    padding: 180px 0;
                     article {
                         width: 65%;
                         display: flex;
@@ -163,16 +162,7 @@ export default {
                         border-radius: 20px;
                         text-align: center;
                         background-color: white;
-                        h1 {
-                            font-size: 45px;
-                            cursor: pointer;
-                        }
-                        h1:hover {
-                            transition: 0.5s;
-                            text-decoration: underline;
-                            color: $third-txt-color;
-                        }
-                        h5 {
+                        h4 {
                             color: $second-txt-color;
                         }
                         div {

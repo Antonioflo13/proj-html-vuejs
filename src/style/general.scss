@@ -13,4 +13,69 @@ body {
     font-family:"Catamaran", sans-serif;
     font-size: 14px;
     background-color: $backgroundColor;
+    h1 {
+        font-size: 45px;
+        &:hover {
+            transition: 0.5s;
+            text-decoration: underline;
+            color: $third-txt-color;
+        }
+    }
+    h2 {
+        font-size: 22px;
+        &:hover {
+            transition: 0.5s;
+            text-decoration: underline;
+            color: $third-txt-color;
+        }
+    }
+    h3 {
+        font-family:"Catamaran", sans-serif;
+        font-size: 21px;
+        font-weight: bold;
+        text-transform: uppercase;
+        &:hover {
+            transition: 0.5s;
+            text-decoration: underline;
+            color: black;
+        }
+    }
+    h4 {
+        font-family:"Catamaran", sans-serif;
+        line-height: 30px;
+        font-size: 17px;
+        color: $second-txt-color;
+        &:hover {
+            transition: 0.5s;
+            text-decoration: underline;
+        }
+    }
+    h5 {
+        font-family:"Catamaran", sans-serif;
+        font-size: 15px;
+        &:hover {
+            transition: 0.5s;
+            text-decoration: underline;
+            color: $third-txt-color;
+        }
+    }
+    h6 {
+        font-family:"Catamaran", sans-serif;
+        text-transform: uppercase;
+        font-size: 14px;
+        &:hover {
+            transition: 0.5s;
+            text-decoration: underline;
+            color: white;
+        }
+    }
+    button {
+        padding: 5px 15px;
+        border: 0px;
+        font-family:"Catamaran", sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+        background-color: $third-txt-color;
+    }
 }
