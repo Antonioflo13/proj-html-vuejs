@@ -2,7 +2,7 @@
   <div id="app">
     <Header :links="links"/>
     <Main/>
-    <Footer/>
+    <Footer :links="links"/>
   </div>
 </template>
 

@@ -436,6 +436,7 @@ export default {
             input {
                 width: 100%;
                 padding: 10px;
+                border: 1px solid #b4b4b4;
                 font-family: "Catamaran", sans-serif;
                 font-size: 20px;
             }
