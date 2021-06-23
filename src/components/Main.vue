@@ -10,18 +10,18 @@
                 <div class="row justify-content-center">
                     <article id="article-box" class="col-12 col-md-6 col-lg-3 col-xl-3">
                         <img src="../assets/images/single-post-img3-400x263.jpg" alt="">
-                        <h2>Food Corner: Top Japanese Restaurant for sushi</h2>
-                        <h5>By Admin I 25th, 2019</h5>
+                        <a href="#"><h2>Food Corner: Top Japanese Restaurant for sushi</h2></a>
+                        <h5>By <a href="#">Admin</a> I 25th, 2019</h5>
                     </article>
                     <article id="article-box" class="col-12 col-md-6 col-lg-3 col-xl-3">
                         <img src="../assets/images/fi-roundup-400x263.jpg" alt="">
-                        <h2>Food Corner: Top Japanese Restaurant for sushi</h2>
-                        <h5>By Admin I 25th, 2019</h5>
+                        <a href="#"><h2>Food Corner: Top Japanese Restaurant for sushi</h2></a>
+                        <h5>By <a href="#">Admin</a> I 25th, 2019</h5>
                     </article>
                     <article id="article-box" class="col-12 col-md-6 col-lg-3 col-xxl-3">
                         <img src="../assets/images/fi-toasts-400x263.jpg" alt="">
-                        <h2>Food Corner: Top Japanese Restaurant for sushi</h2>
-                        <h5>By Admin I 25th, 2019</h5>
+                        <a href="#"><h2>Food Corner: Top Japanese Restaurant for sushi</h2></a>
+                        <h5>By <a href="#">Admin</a> I 25th, 2019</h5>
                     </article>
                 </div>
             </div>
@@ -42,8 +42,15 @@
                     <article id="receipe-article" class="col-12 col-lg-6">   
                         <img src="../assets/images/Yogurt-Nan-600x395.jpg" alt="">
                         <div id="txt-container">
-                            <h2>Lunch favourite with Salad, Nann And Beans</h2>
-                            <h5>Bakery, Featured, Healthy, Latest Reciepes, Staff Picks </h5>
+                            <a href="#"><h2>Lunch favourite with Salad, Nann And Beans</h2></a>
+                            <ul>
+                                <li><a href="#"><h5>Bakery, </h5></a></li>
+                                <li><a href="#"><h5>Featured, </h5></a></li>
+                                <li><a href="#"><h5>Healthy, </h5></a></li>
+                                <li><a href="#"><h5>Latest Reciepes, </h5></a></li>
+                                <li><a href="#"><h5>Staff Picks</h5></a></li>
+                            </ul>
+                            <div id="row-separator"></div>
                             <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eius eos quas odit aspernatur officia voluptatem, voluptatum distinctio rem, fuga omnis mollitia numquam veritatis deleniti in cupiditate sequi molestias atque! Enim, nihil repudiandae quo voluptate sed quis cupiditate nemo cum, pariatur incidunt autem numquam reprehenderit veniam corporis ipsam. Sint, necessitatibus.</h4>
                             <button>learn more</button>
                         </div>
@@ -75,35 +82,35 @@
                 <div class="row">
                         <div id="culinary-items" class="col-lg-3">
                             <img src="../assets/images/drinks-recipes.png" alt="">
-                            <h6>drinks</h6>
+                            <a href="#"><h6>drinks</h6></a>
                         </div>
                         <div id="culinary-items" class="col-lg-3">
                             <img src="../assets/images/soups-recipes.png" alt="">
-                            <h6>soups</h6>
+                            <a href="#"><h6>soups</h6></a>
                         </div>
                         <div id="culinary-items" class="col-lg-3">
                             <img src="../assets/images/baking-recipes.png" alt="">
-                            <h6>bakery</h6>
+                            <a href="#"><h6>bakery</h6></a>
                         </div>
                         <div id="culinary-items" class="col-lg-3">
                             <img src="../assets/images/dinner-recipes.png" alt="">
-                            <h6>dinner</h6>
+                            <a href="#"><h6>dinner</h6></a>
                         </div>
                         <div id="culinary-items" class="col-lg-3">
                             <img src="../assets/images/healthy-recipes.png" alt="">
-                            <h6>healthy</h6>
+                            <a href="#"><h6>healthy</h6></a>
                         </div>
                         <div id="culinary-items" class="col-lg-3">
                             <img src="../assets/images/staff-picks.png" alt="">
-                            <h6>staff picks</h6>
+                            <a href="#"><h6>staff picks</h6></a>
                         </div>
                         <div id="culinary-items" class="col-lg-3">
                             <img src="../assets/images/premium-recipes.png" alt="">
-                            <h6>appetsers</h6>
+                            <a href="#"><h6>appetsers</h6></a>
                         </div>
                         <div id="culinary-items" class="col-lg-3">
                             <img src="../assets/images/quick-easy-recipes.png" alt="">
-                            <h6>quick & easy</h6>
+                            <a href="#"><h6>quick & easy</h6></a>
                         </div>
                 </div>
             </div>
@@ -120,53 +127,57 @@
                             <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora blanditiis suscipit iure reiciendis corporis illum quibusdam fuga perferendis error officiis!</h4>
                         </div>
                         <div>
-                            <button>read our blog</button>
+                            <button>read our blog<i class="fas fa-book-reader p-2"></i></button>
                         </div>
                     </div>
                     <div class="col-lg-7 farm-item">
                         <div class="large">
                             <img src="../assets/images/single-post-img3-800x527.jpg" alt="">
-                            <h2>Food Corner: Top Japanese Restaurants for Sushi</h2>
-                            <h5>By admin I March 25th, 2019</h5>
+                            <a href="#"><h2>Food Corner: Top Japanese Restaurants for Sushi</h2></a>
+                            <h5>By <a href="#">admin</a> I March 25th, 2019</h5>
                             <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima quisquam perspiciatis, rem eum quos, quo expedita aperiam temporibus dolore ipsum at error, ex dolorum itaque. Cumque voluptatem consequatur sapiente impedit ad in distinctio sequi id corporis, amet dolore sunt quos ex excepturi facere adipisci labore veritatis. Debitis suscipit culpa reprehenderit?</h4>
+                            <div class="d-flex justify-content-between">
+                            <a href="#"><h4>Read More ></h4></a>
+                            <a href="#"><i class="far fa-comments p-2"></i>0</a>
+                            </div>
                         </div>
                         <div class="row">
                             <div  class="col-lg-5 farm-item small">
                                 <img src="../assets/images/fi-roundup-400x263.jpg" alt="">
-                                <h2>Roundup: My New Favourite Recipes For Healhy Living</h2>
-                                <h5>By admin I March 25th, 2019</h5>
+                                <a href="#"><h2>Roundup: My New Favourite Recipes For Healhy Living</h2></a>
+                                <h5>By <a href="#">admin</a> I March 25th, 2019</h5>
                             </div>
                             <div  class="col-lg-5 farm-item small">
                                 <img src="../assets/images/fi-korean-food-400x263.jpg" alt="">
-                                <h2>Meal Prep: Korean Bibimbap with Kimchi</h2>
-                                <h5>By admin I March 25th, 2019</h5>
+                                <a href="#"><h2>Meal Prep: Korean Bibimbap with Kimchi</h2></a>
+                                <h5>By <a href="#">admin</a> I March 25th, 2019</h5>
                             </div>
                         </div>
                         <div class="row">
                             <div  class="col-lg-5 farm-item small">
                                 <img src="../assets/images/fi-toasts-400x263.jpg" alt="">
-                                <h2>Why These Toasts with Tea are My New Favorite</h2>
-                                <h5>By admin I March 25th, 2019</h5>
+                                <a href="#"><h2>Why These Toasts with Tea are My New Favorite</h2></a>
+                                <h5>By <a href="#">admin</a> I March 25th, 2019</h5>
                             </div>
                             <div  class="col-lg-5 farm-item small">
                                 <img src="../assets/images/fi-street-food-400x263.jpg" alt="">
-                                <h2>Exploring Street Food in Bangok</h2>
-                                <h5>By admin I March 25th, 2019</h5>
+                                <a href="#"><h2>Exploring Street Food in Bangok</h2></a>
+                                <h5>By <a href="#">admin</a> I March 25th, 2019</h5>
                             </div>
                         </div>
                         <div class="row">
                             <div  class="col-lg-5 farm-item small">
                                 <div>
                                     <img src="../assets/images/fi-organic-breakfast-400x263.jpg" alt="">
-                                    <h2>Organic Choices For Healthier Living</h2>
-                                    <h5>By admin I March 25th, 2019</h5>
+                                    <a href="#"><h2>Organic Choices For Healthier Living</h2></a>
+                                    <h5>By <a href="#">admin</a> I March 25th, 2019</h5>
                                 </div>
                             </div>
                             <div  class="col-lg-5 farm-item small">
                                 <div class="">
                                 <img src="../assets/images/fi-water-side-rest-400x263.jpg" alt="">
-                                <h2>5 Waterside Restaurants in Instanbul for Special Events</h2>
-                                <h5>By admin I March 25th, 2019</h5>
+                                <a href="#"><h2>5 Waterside Restaurants in Instanbul for Special Events</h2></a>
+                                <h5>By <a href="#">admin</a> I March 25th, 2019</h5>
                                 </div>
                             </div>
                         </div>
@@ -189,12 +200,13 @@
                         <div id="city-guide" class="mb-5">
                             <img src="../assets/images/singapore-featured-image-400x263.jpg" alt="">
                             <h3>City Guide: Singapore</h3>
-                            <h6>VIEW ALL CITY GUIDES</h6>
+                            <button><i class="fas fa-globe-americas p-2"></i>VIEW ALL CITY GUIDES</button>
                         </div>
                         <!-- /city-guide -->
 
                         <!-- search -->
                         <div id="search" class="mb-5">
+                            <i class="fas fa-search"></i>
                             <input type="search" placeholder="Search..">
                         </div>
                         <!-- /search -->
@@ -228,28 +240,28 @@
                         <!-- post -->
                         <div id="post">
                             <div id="title" class="mb-5">
-                                <h3>Post</h3>
+                                <a href="#"><h3>Post</h3></a>
                                 <span></span>
-                                <h3>Recent</h3>
+                                <a href="#"><h3>Recent</h3></a>
                             </div>
                             <div id="posts">
                                 <img src="../assets/images/single-post-img3-66x66.jpg" alt="">
                                 <div class="txt-post">
-                                    <h4>Food Corner: Top Japanese Restaurants for Sushi</h4>
+                                    <a href="#"><h4>Food Corner: Top Japanese Restaurants for Sushi</h4></a>
                                     <h5>By admin I March 25th, 2019</h5>
                                 </div>
                             </div>
                             <div id="posts">
                                 <img src="../assets/images/singapore-featured-image-66x66.jpg" alt="">
                                 <div class="txt-post">
-                                    <h4>City Guide: Singapore</h4>
+                                    <a href="#"><h4>City Guide: Singapore</h4></a> 
                                     <h5>By admin I March 25th, 2019</h5>
                                 </div>
                             </div>
                             <div id="posts">
                                 <img src="../assets/images/slide1-bg-66x66.jpg" alt="">
                                 <div class="txt-post">
-                                    <h4>6 Nutritional Tips to Help Burn Body Fat</h4>
+                                    <a href="#"><h4>6 Nutritional Tips to Help Burn Body Fat</h4></a>
                                     <h5>By admin I March 25th, 2019</h5>
                                 </div>
                             </div>
@@ -312,15 +324,12 @@ export default {
             font-weight: bold;
             text-transform: uppercase;
             text-align: center;
-            &:hover {
-                text-decoration: underline;
-                color: black;
-            }
         }
 
         #article-box {
             img {
-                width: 50%;
+                position: relative;
+                width: 100%;
                 margin-bottom: 20px;
             }
             margin: 1%;
@@ -334,10 +343,22 @@ export default {
     
     #popular-reciepes {
         @include wrapper;
+        width: 100%;
         padding-top: 400px;
         text-align: center;
         margin-bottom: 50px;
-        
+        img {
+            width: 100%;
+        }
+        ul {
+            padding: 0;
+        }
+        ul li {
+            @include list-inline;
+        }
+        #row-separator {
+            border: 1px solid rgb(216, 216, 216);
+        }
         #txt-container {
             text-align: left;
             padding: 30px;
@@ -349,7 +370,7 @@ export default {
 
         #receipes-images {
             img:nth-child(1),
-            img:nth-child(3) {
+            img:nth-child(2) {
                 margin-top: 0;
             }
             img {
@@ -371,6 +392,15 @@ export default {
             img {
                 height: 100px;
             }
+            h6 {
+                width: 100%;
+                padding: 10px 10px;
+                &:hover {
+                background-color: $third-txt-color;
+                }
+            }
+            
+            
         }
     }
 
@@ -382,12 +412,12 @@ export default {
                 margin-bottom: 40px;
             }
             .large {
-                padding: 0 10px;
+                padding: 10px 10px;
                 background-color: white;
             }
             .small {
                 width: calc(50% - 4%);
-                padding: 0 10px;
+                padding: 10px 10px;
                 margin: 2%;
                 text-align: center;
                 background-color: white;
@@ -430,15 +460,28 @@ export default {
                 color: white;
                 background-color: $third-txt-color;
             }
+            button {
+                padding: 20px;
+                width: 100%;
+            }
         }
 
         #search {
+            position: relative;
             input {
                 width: 100%;
-                padding: 10px;
+                padding: 10px 50px;
                 border: 1px solid #b4b4b4;
                 font-family: "Catamaran", sans-serif;
-                font-size: 20px;
+                font-size: 18px;
+                color: #b4b4b4;
+            }
+            i {
+                position: absolute;
+                left: 15px;
+                bottom: 18px;
+                font-size: 15px;
+                color: #b4b4b4;
             }
         }
 
@@ -462,7 +505,7 @@ export default {
                     border-radius: 10px;
                     color: #837E77;
                     background-color: #EEEEE9;
-                    :hover {
+                    &:hover {
                         color: #837E77;
                     }
                 }
@@ -496,6 +539,9 @@ export default {
                 } 
                 h4 {
                     color: black;
+                    &:hover {
+                        color: $third-txt-color;
+                    }
                 }
             }
         }

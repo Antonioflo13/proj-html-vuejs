@@ -15,30 +15,15 @@ body {
     background-color: $backgroundColor;
     h1 {
         font-size: 45px;
-        &:hover {
-            transition: 0.5s;
-            text-decoration: underline;
-            color: $third-txt-color;
-        }
     }
     h2 {
         font-size: 22px;
-        &:hover {
-            transition: 0.5s;
-            text-decoration: underline;
-            color: $third-txt-color;
-        }
     }
     h3 {
         font-family:"Catamaran", sans-serif;
         font-size: 21px;
         font-weight: bold;
         text-transform: uppercase;
-        &:hover {
-            transition: 0.5s;
-            text-decoration: underline;
-            color: black;
-        }
     }
     h4 {
         font-family:"Catamaran", sans-serif;
@@ -47,18 +32,12 @@ body {
         color: $second-txt-color;
         &:hover {
             transition: 0.5s;
-            text-decoration: underline;
         }
     }
     h5 {
         font-family:"Catamaran", sans-serif;
         font-size: 15px;
         color: #67615A;
-        &:hover {
-            transition: 0.5s;
-            text-decoration: underline;
-            color: $third-txt-color;
-        }
     }
     h6 {
         font-family:"Catamaran", sans-serif;
@@ -66,8 +45,15 @@ body {
         font-size: 14px;
         &:hover {
             transition: 0.5s;
-            text-decoration: underline;
             color: white;
+        }
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        transition: 0.4s;
+        &:hover {
+            color: $third-txt-color;
         }
     }
     button {
@@ -78,5 +64,9 @@ body {
         font-weight: bold;
         color: white;
         background-color: $third-txt-color;
+        transition: 0.4s;
+        &:hover {
+            background-color: $hover-botton-color;
+        }
     }
 }

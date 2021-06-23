@@ -46,7 +46,7 @@
                         <div>
                             <h6>TODAY'S PICKS</h6>
                         </div>
-                        <h1>Food Corner: Top Japanese Retraurants for sushi</h1>
+                        <a href="#"><h1>Food Corner: Top Japanese Retraurants for sushi</h1></a>
                         <h4>March 25, 2019</h4>
                     </article>
                 </section>
@@ -97,7 +97,6 @@ export default {
                             color: rgb(31, 31, 31);
                             :hover {
                             transition: 0.5s;
-                            text-decoration: underline;
                             color: $third-txt-color;
                             }
                             h5 {
@@ -131,11 +130,22 @@ export default {
                         text-decoration: none;
                         padding: 0 0 10px 0;
                         color: black;
-                        transition: 0.4s;
-                    }
-                    :hover  {
-                        border-bottom: 2px solid $third-txt-color;
-                        color: $third-txt-color;
+                        &:hover {
+                            color: $third-txt-color;
+                        }
+                        &:focus {
+                            border-bottom: 2px solid $third-txt-color; 
+                        }
+                        &::after  {
+                            display:block;
+                            content: '';
+                            border-bottom: 2px solid $third-txt-color;  
+                            transform: scaleX(0);  
+                            transition: transform 250ms ease-in-out;
+                        }
+                        &:hover:after {
+                            transform: scaleX(1);
+                        }
                     }
                 }
             }

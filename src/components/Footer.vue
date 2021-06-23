@@ -30,7 +30,7 @@
         <!-- social -->
         <article id="social" class="item">
             <img class="mb-5" src="../assets/images/avada-food-logo-mob-2x-200x87.png" alt="">
-            <Social/>
+            <Social id="social-icon"/>
         </article>
         <!-- /social -->
         <!-- social -->
@@ -46,8 +46,8 @@
         <article id="contacts" class="item">
             <h3 class="mb-3">contact</h3>
             <h4>755 New York Ave, Brooklyn, New York 12203</h4>
-            <h4>+0100-505-0000</h4>
-            <h4>info@you-domain.com</h4>
+            <a href="#"><h4>+0100-505-0000</h4></a>
+            <a href="#"><h4>info@you-domain.com</h4></a>
         </article>
         <!-- /social -->
         <!-- social -->
@@ -100,9 +100,11 @@ export default {
             }
         }
         #input {
+            width: 100%;
             display: flex;
+            justify-content: center;
             input {
-                width: 700px;
+                width: 60%;
                 padding: 10px;
                 border: 1px solid #b4b4b4;
                 margin-right: 2%;
@@ -123,9 +125,9 @@ export default {
         .item {
             display: flex;
             flex-direction: column;
+            align-items: center;
             width: calc(25%);
             padding: 20px;
-            justify-content: center;
             border-right: 1px dotted #b4b4b4;
             h3 {
                 text-align: left;
@@ -141,10 +143,19 @@ export default {
         }
         #social {
             align-items: center;
+            #social-icon {
+                padding: 0;
+            }
+            img {
+                max-width: 60%;
+            }
         }
         #links {
             li:first-of-type {
                 display: none;
+            }
+            ul {
+                padding-left: 0;
             }
             ul li {
                 list-style: none;
@@ -154,9 +165,50 @@ export default {
                     font-size: 18px;
                     text-decoration: none;
                     color: #333338;
+                    &:hover {
+                        color: $third-txt-color;
+                    }
                 }
+            }
+        }
+        #contacts {
+            a {
+                h4 {
+                    &:hover {
+                        color: $third-txt-color;
+                    }
+                }
+            }
+        }
+        #get-app {
+            img {
+                max-width: 60%;;
             }
         }
         
     }
+    
+    // media-query
+    @media screen and (min-width: 424px) and (max-width: 768px ) {
+        #bottom-footer {
+            .item {
+                h3 {
+                    line-height: 15px;
+                    font-size: 12px;
+                }
+            }
+            #links {
+                ul li a {
+                    font-size: 12px;
+                }
+            }
+        }
+        #contacts {
+            h4 {
+                line-height: 15px;
+                font-size: 12px;
+            }
+        }
+    }
+
 </style>
